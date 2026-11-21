@@ -1,3 +1,3 @@
-# Parlor — help and privacy pages
+# Kitchen Table Mahjong — help and privacy pages
 
-The public help and privacy pages for the Parlor app (American mahjong for iPhone and iPad).
+The public help and privacy pages for the Kitchen Table Mahjong app (American mahjong for iPhone and iPad).
