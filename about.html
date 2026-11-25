@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>Kitchen Table Mahjong</title>
+    <meta name="description" content="American mahjong with friends: the Charleston, jokers and a card of hands. Play in your browser or on your phone, with friends or with patient bots. No ads, ever." />
+    <meta name="theme-color" content="#163A2E" />
+    <meta property="og:title" content="Kitchen Table Mahjong" />
+    <meta property="og:description" content="American mahjong with friends. Play in your browser or on your phone." />
+    <meta property="og:type" content="website" />
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+        margin: 0;
+        /* The table felt, so the page never flashes white while it loads. */
+        background: linear-gradient(180deg, #2e6a54 0%, #20503f 50%, #163a2e 100%) fixed;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      /* Shown until the app has loaded, then covered by it. */
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        color: #f7f1e3;
+        font-family: Georgia, "Times New Roman", serif;
+        z-index: -1;
+      }
+      #boot .name {
+        font-size: 44px;
+        letter-spacing: -0.3px;
+      }
+      #boot .sub {
+        font: 700 13px/1 -apple-system, "Segoe UI", system-ui, sans-serif;
+        letter-spacing: 5px;
+        color: #f7e7b9;
+      }
+      /* A clear gold outline for anyone moving around with the keyboard. */
+      :focus-visible {
+        outline: 3px solid #e2bf63 !important;
+        outline-offset: 2px;
+      }
+      input:focus-visible,
+      textarea:focus-visible {
+        outline-offset: 0;
+      }
+      /* Quiet scrollbars that suit the felt. */
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(243, 236, 221, 0.35) transparent;
+      }
+    </style>
+  <meta name="theme-color" content="#163A2E">
+<meta name="description" content="American mahjong with friends — play in your browser or on your phone.">
+<link rel="icon" href="/favicon.ico"/></head>
+
+  <body>
+    <noscript>Kitchen Table Mahjong needs JavaScript turned on in your browser to play.</noscript>
+    <div id="boot" aria-hidden="true">
+      <div class="name">Kitchen Table</div>
+      <div class="sub">MAHJONG</div>
+    </div>
+    <div id="root"></div>
+  <script src="/_expo/static/js/web/entry-bf0567c9018cea27dcf1b1614dec4ac0.js" defer></script>
+</body>
+</html>
